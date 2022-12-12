@@ -1,0 +1,166 @@
+/* General Guideline !! 
+    1. Z-Index maksimal 10, buat nilai terbesar.
+*/
+
+/* Import Here */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+/* CSS Start Here !! */
+body {
+  font-family: "Inter", sans-serif;
+}
+/* Left-Navbar */
+#left-nav {
+  width: 168px;
+  height: 900px;
+  background-color: #0a1226;
+  position: fixed;
+  box-shadow: 0px 0px 15px #000000;
+  z-index: 10;
+}
+#logo-nav {
+  max-height: 65px;
+  max-width: 105px;
+  margin-top: 3rem;
+  margin-left: 1.4rem;
+  z-index: 9;
+}
+
+#versions {
+  font-size: 13px;
+  margin-top: 5rem;
+  margin-left: 2.5rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.nav-link {
+  padding-left: 3.5rem !important;
+}
+.nav-link:focus {
+  background-color: #1e2843 !important;
+  width: 100% !important;
+}
+
+.nav-link:hover {
+  background-color: #1e2843 !important;
+  width: 100% !important;
+}
+
+/* Home Container */
+#home {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  background: linear-gradient(231.85deg, #0a1226 25.37%, #19a7e4 288.02%);
+  z-index: 0;
+}
+
+#home-char {
+  position: relative;
+  top: 8rem;
+  left: 49rem;
+  z-index: 0;
+}
+
+#title-home {
+  position: relative;
+  color: #ffffff;
+  font-size: 55px;
+  font-weight: 700;
+  z-index: 2;
+  left: 4.2rem;
+  top: 0.3rem;
+}
+
+#ornaments {
+  background: #19a7e4;
+  border-radius: 39.6284px 12.9223px 39.63px;
+  width: 500px;
+  height: 80px;
+  left: 14rem;
+  bottom: 35rem;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Home Text */
+.home-text {
+  color: #ffffff;
+  width: 76.5%;
+  text-align: justify;
+  position: relative;
+  left: 14rem;
+  bottom: 18rem;
+  font-size: 18px;
+}
+
+#flexer {
+  color: #19a7e4;
+  font-weight: 700;
+  font-style: italic;
+}
+
+#that {
+  font-style: italic;
+}
+
+#btn-start {
+  width: 240px !important;
+  height: 55px !important;
+  border: 2px solid #19a7e4 !important;
+  border-radius: 12px !important;
+  left: 22rem;
+  bottom: 16.5rem;
+  position: relative;
+  text-decoration: none;
+}
+
+#btn-start:hover {
+  background-color: #19a7e4;
+  border-radius: 12px;
+  text-decoration: none;
+  border: 2px solid #ffffff !important;
+  width: 240px !important;
+  height: 55px !important;
+}
+
+#start {
+  text-align: center;
+  color: #19a7e4;
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#start:hover {
+  text-align: center;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#desc-home {
+  color: #ffffff;
+  font-size: 18px;
+  position: relative;
+  left: 20.8rem;
+  bottom: 10.5rem;
+  font-weight: 400;
+}
+
+/* Upload Container */
+#upload {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  background: #2a344a;
+}
+
+/* Download Container */
+#download {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  background: #64718c;
+}
