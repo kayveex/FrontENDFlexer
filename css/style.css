@@ -172,3 +172,63 @@ body {
   background: linear-gradient(231.85deg, #0a1226 25.37%, #19a7e4 288.02%);
   z-index: 0;
 }
+
+#text-abt {
+  color: #ffffff;
+  position: absolute;
+  left: 35rem;
+  top: 10rem;
+  font-size: 56px;
+  font-weight: 700;
+}
+
+#meet {
+  color: #19a7e4;
+}
+
+.team-pic {
+  position: relative;
+  display: inline-block;
+  left: 10rem;
+  top: 20rem;
+}
+
+#al,
+#am {
+  padding-right: 3rem;
+  padding-left: 1rem;
+}
+
+#rj {
+  padding-right: 3rem;
+}
+
+#nd {
+  padding-left: 4rem;
+}
+
+#desc-team {
+  display: inline-flex;
+  font-size: 20px;
+  color: #ffffff;
+  position: relative;
+  left: 8rem;
+  top: 22rem;
+}
+
+#drop-1 {
+  position: absolute;
+  left: 20rem;
+  top: 36rem;
+  background: #19a7e4;
+  border-radius: 5px;
+  color: #ffffff;
+}
+#drop-2 {
+  position: absolute;
+  left: 34rem;
+  top: 36rem;
+  background: #19a7e4;
+  border-radius: 5px;
+  color: #ffffff;
+}
